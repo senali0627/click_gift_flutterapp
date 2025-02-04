@@ -1,16 +1,33 @@
-# click_gift
+# ClickGift - Online Gift Store App using Flutter
 
-online gift store app
+ClickGift is an online gift store designed to provide users with a seamless gifting experience. The app allows users to browse through a variety of categories, customize gifts with images and messages, and conveniently place orders.  
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Dark Mode**: Toggle dark mode for a comfortable browsing experience.  
+- **Real-Time Location Detection**: Autofill address field during checkout.  
+- **Customizable Gifts**: Add personalized images, messages, and wrapping styles.  
+- **Order Management**: View cart, checkout, and receive order confirmation.  
+- **Battery Level Warning**: Get notified if your battery is low  to prevent interruptions.  
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** (Cross-platform framework)  
+- **Dart** (Programming language)  
+- **Material Design** (UI components)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+
+-The app uses the following Flutter dependencies:  
+
+  - battery_plus  # For battery status monitoring
+  - geolocator   # For real-time location detection
+  - image_picker   # To pick images from gallery or camera
+  - connectivity_plus ^3.0.0 # To check network connectivity
+
+
+ClickGift ensures a smooth and user-friendly experience, making gifting easier than ever! 🎁  
+
+---
+💡 **Contributions & Feedback**  
+Feel free to open issues and contribute to improve ClickGift! 🚀
