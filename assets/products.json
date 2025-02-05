@@ -7,25 +7,25 @@
         {
           "name": "Rose Bouquet",
           "description": "A beautiful bouquet of fresh red roses.",
-          "price": 29.99,
+          "price": 2900.99,
           "image": "https://i.pinimg.com/736x/2e/cf/06/2ecf067a2069128f44d75d25a32e219e.jpg"
         },
         {
           "name": "Tulip Bunch",
           "description": "A vibrant bunch of tulips in assorted colors.",
-          "price": 24.99,
+          "price": 2400.99,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDBXXbJCKk6IUHSGHdx6SsjtNcCQzx_nDZzA&s"
         },
         {
           "name": "Orchid Basket",
           "description": "A delightful basket of exotic orchids.",
-          "price": 39.99,
+          "price": 3900.99,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ6mgbXw-2VzBMaulEsMsbK_TPycNoiyKk2g&s"
         },
         {
           "name": "Sunflower Arrangement",
           "description": "Bright sunflowers arranged in a stylish vase.",
-          "price": 34.99,
+          "price": 3400.99,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQs267zI4GH-HQZjM3-zur5mM0Bq4nLjZ9Tw&s"
         }
       ]
@@ -37,25 +37,25 @@
         {
           "name": "Gold Necklace",
           "description": "A stunning 18K gold necklace with a diamond pendant.",
-          "price": 499.99,
+          "price": 49900.99,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ28DUEa8FC7PR_R4Wg8X7gQJXykedQ0E9Fqg&s"
         },
         {
           "name": "Silver Bracelet",
           "description": "An elegant silver bracelet with intricate designs.",
-          "price": 149.99,
+          "price": 14900.99,
           "image": "https://www.eshop.lk/wp-content/uploads/2024/03/Screenshot_2024-03-13-11-50-43-1.png"
         },
         {
           "name": "Pearl Earrings",
           "description": "Classic pearl earrings perfect for any occasion.",
-          "price": 199.99,
+          "price": 19900.99,
           "image": "https://limitededition.lk/image/cache/2024/JULY/limitededitionlk-sri-lanka-stainless-steel-five-clover-jewellery-set3-500x500.png"
         },
         {
           "name": "Platinum Ring",
           "description": "A premium platinum ring with a sleek design.",
-          "price": 799.99,
+          "price": 7990.99,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_zxA2OU1ajeeTlN2oi0K5jbQiISIw3L-dA&s"
         }
       ]
@@ -67,25 +67,25 @@
         {
           "name": "Chocolate Cake",
           "description": "A rich chocolate cake with a creamy chocolate ganache.",
-          "price": 39.99,
+          "price": 3900.99,
           "image": "https://flouringkitchen.com/wp-content/uploads/2023/07/BW1A4089-2.jpg"
         },
         {
           "name": "Vanilla Sponge Cake",
           "description": "A light and fluffy vanilla sponge cake with buttercream frosting.",
-          "price": 34.99,
+          "price": 3400.99,
           "image": "https://www.onceuponachef.com/images/2012/11/Vanilla-Birthday-Cake-18.jpg"
         },
         {
           "name": "Red Velvet Cake",
           "description": "A moist red velvet cake with cream cheese frosting.",
-          "price": 44.99,
+          "price": 4400.99,
           "image": "https://www.piesandtacos.com/wp-content/uploads/2024/05/Strawberry-Cake-6-scaled.jpg"
         },
         {
           "name": "Fruit Cake",
           "description": "A delightful cake filled with fresh seasonal fruits.",
-          "price": 49.99,
+          "price": 4900.99,
           "image": "https://bakingamoment.com/wp-content/uploads/2023/07/IMG_2051-ice-cream-cake.jpg"
         }
       ]
@@ -97,25 +97,25 @@
         {
           "name": "Flower and Chocolate Combo",
           "description": "A perfect gift combo of fresh flowers and gourmet chocolates.",
-          "price": 59.99,
+          "price": 590.99,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ2ZaiE0aAh1neTvjzezx3o-JEe4KS7KFHGQ&s"
         },
         {
           "name": "Jewelry and Cake Combo",
           "description": "An exquisite combo of a silver bracelet and a chocolate cake.",
-          "price": 199.99,
+          "price": 1990.99,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXn9G9atFdBRSIE0VE93Wj5vr0fr4YWBF0Qw&s"
         },
         {
           "name": "Flowers and Cake Combo",
           "description": "A vibrant bouquet of roses paired with a chocolate cake.",
-          "price": 89.99,
+          "price": 8900.99,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXn9G9atFdBRSIE0VE93Wj5vr0fr4YWBF0Qw&s"
         },
         {
           "name": "Premium Gift Set",
           "description": "A luxurious set including jewelry, flowers, and cake.",
-          "price": 249.99,
+          "price": 2490.99,
           "image": "https://m.media-amazon.com/images/I/715saMP1TxL._AC_SL1500_.jpg"
         }
       ]

@@ -17,6 +17,7 @@ import 'package:get/get.dart';
 
 import '../views/login/login_binding.dart';
 import '../views/login/login_view.dart';
+import '../views/review/review_view.dart';
 
 class Routes {
   static const String login = "/login_page";
@@ -29,6 +30,7 @@ class Routes {
   static const String checkout = "/checkout_page";
   static const String confirmation = "/confirmation_page";
   static const String inquiries = "/inquiries_page";
+  static const String review = '/review';
 
   static final routes = [
     GetPage(
@@ -65,6 +67,10 @@ class Routes {
     GetPage(
       name: Routes.inquiries,
       page: () => InquiriesPage(),
+    ),
+    GetPage(
+      name: Routes.review,
+      page: () => ReviewPage(),
     ),
   ];
 }

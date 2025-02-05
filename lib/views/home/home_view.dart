@@ -140,6 +140,66 @@ class HomePage extends StatelessWidget {
                   },
                 ),
               ),
+
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Text(
+                  "Discounted Products",
+                  style: Theme.of(context).textTheme.headlineLarge?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 200,
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: controller.discountedProducts.length,
+                  itemBuilder: (context, index) {
+                    final product = controller.discountedProducts[index];
+                    return GestureDetector(
+                      onTap: () {
+                        Get.toNamed(Routes.product, arguments: product);
+                      },
+                      child: Container(
+                        margin: const EdgeInsets.symmetric(horizontal: 8),
+                        width: 150,
+                        child: Card(
+                          elevation: 2,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Expanded(
+                                child: Image.network(
+                                  product['image'],
+                                  fit: BoxFit.cover,
+                                  width: double.infinity,
+                                ),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Text(
+                                  product['name'],
+                                  style: const TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 8),
+                                child: Text("Rs ${product['price']}"),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    );
+                  },
+                ),
+              ),
+
             ],
           ),
         ),

@@ -9,6 +9,8 @@ import 'package:get/get.dart';
 import '../home/home_controller.dart';
 
 class DashboardPage extends StatefulWidget {
+  const DashboardPage({super.key});
+
   @override
   State<DashboardPage> createState() => _DashboardPageState();
 }
@@ -130,6 +132,13 @@ class _DashboardPageState extends State<DashboardPage> {
                     child: const Text("Cancel"),
                   ),
                 );
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.rate_review),
+              title: const Text("Review"),
+              onTap: () {
+                Get.toNamed(Routes.review); // Navigate to the Review page
               },
             ),
           ],
